@@ -1,0 +1,89 @@
+.box {
+    background-color:red;
+    height:600px;
+    /*width:400px;*/
+    margin:auto;
+    text-align:center;
+    color:white;
+  }
+  #pics {
+    float:left;
+    padding-left:20px;
+    margin:auto;
+    text-align:center;
+    
+  }
+  #pics2 {
+  clear:both;
+    float:left;
+    padding-left:20px;
+  } 
+  p {
+    color:blue;
+  }
+  @media only screen and (max-width:600px){
+    .box {
+        background-color:red;
+        /*height:600px;*/
+        height:1500px;
+        width:400px;
+        margin:auto;
+        text-align:center;
+        color:white;
+      }
+
+  }
+  @media only screen and (min-width:600px){
+    .box {
+        background-color:red;
+        /*height:600px;*/
+        height:1100px;
+        /*width:400px;*/
+        margin:auto;
+        text-align:center;
+        color:white;
+      }
+
+  }
+  @media only screen and (min-width:768px){
+    .box {
+        background-color:red;
+        /*height:600px;*/
+        height:1100px;
+        /*width:400px;*/
+        margin:auto;
+        text-align:center;
+        color:white;
+      }
+
+  }
+  @media only screen and (min-width:992px){
+    .box {
+        background-color:red;
+        /*height:600px;*/
+        height:600px;
+       /* width:400px;*/
+        margin:auto;
+        text-align:center;
+        color:white;
+      }
+
+  }
+  .menu {
+    display:flex;
+    background-color:brown;
+    border:1px solid green;
+    text-align:center;
+    color:cyan;
+  }
+  .menu div {
+    margin:5px;
+  }
+  #price {
+    flex-direction:column;
+  }
+  #billing {
+    background-color:teal;
+    text-align:center;
+    height:600px;
+  }
