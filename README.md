@@ -1,3 +1,3 @@
 #Marks Recorder
-Entry Of Student Data
-Marks In Each Subject
+1.Entry Of Student Data
+2.Marks In Each Subject
