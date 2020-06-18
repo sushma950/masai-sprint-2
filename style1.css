@@ -1,0 +1,31 @@
+.page1 {
+    background-color: green;
+    height: 850px;
+    
+}
+h1 {
+    text-align: center;
+    color:yellow;
+}
+.center {
+    text-align: center;
+}
+h3 {
+    word-spacing: 50px;
+    color:orangered;
+}
+.page2 {
+    background-color: red;
+    
+}
+.page3 {
+    background-color: teal;
+    height:1000px;
+}
+.row-item{
+    display: flex;
+   }
+
+   .row-item > * {
+    flex: 1
+       }
